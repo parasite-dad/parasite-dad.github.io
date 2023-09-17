@@ -79,6 +79,12 @@ author_education_details:
                 college_degree: Amazon Cloud Practitioner
                 description: Amazon Cloud Practitioner
                 visibility: true    
+              - college_logo: awssaa.png
+                college_name: Amazon Web Services
+                college_url: https://aws.amazon.com
+                college_degree: Amazon Solution Architect Associate
+                description: Amazon Solution Architect Associate
+                visibility: true    
 
 # Projects
 author_project_details:
