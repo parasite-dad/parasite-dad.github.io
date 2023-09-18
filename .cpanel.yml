@@ -5,7 +5,7 @@ deployment:
     #- /bin/cp -R _includes $DEPLOYPATH
     #- /bin/cp -R _layouts $DEPLOYPATH
     #- /bin/cp -R _sass $DEPLOYPATH
-    #- /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R build/assets $DEPLOYPATH
     - /bin/cp build/feed.xml $DEPLOYPATH
     - /bin/cp build/index.html $DEPLOYPATH
