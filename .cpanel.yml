@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ckcodete/public_html/
+    #- /bin/cp -R _includes $DEPLOYPATH
+    #- /bin/cp -R _layouts $DEPLOYPATH
+    #- /bin/cp -R _sass $DEPLOYPATH
+    #- /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R build/assets $DEPLOYPATH
+    - /bin/cp build/feed.xml $DEPLOYPATH
+    - /bin/cp build/index.html $DEPLOYPATH
+    - /bin/cp build/sitemap.xml $DEPLOYPATH
+    #- /bin/cp Gemfile $DEPLOYPATH
+    #- /bin/cp Gemfile.lock $DEPLOYPATH
+    #- /bin/cp index.html $DEPLOYPATH
+    #- /bin/cp README.md $DEPLOYPATH
+
